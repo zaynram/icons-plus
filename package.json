@@ -5,8 +5,8 @@
   "categories": [
     "Themes"
   ],
-  "version": "1.0.0",
-  "publisher": "vscode",
+  "version": "1.0.3",
+  "publisher": "zr-pubexts",
   "license": "MIT",
   "engines": {
     "vscode": "*"

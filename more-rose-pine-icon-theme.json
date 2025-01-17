@@ -1,4 +1,5 @@
 {
+  "showLanguageModeIcons": true,
   "iconDefinitions": {
     "_file": {
       "iconPath": "./file.svg"
@@ -26,7 +27,6 @@
     }
   },
   "file": "_file",
-  "showLanguageModeIcons": true,
   "folder": "_folder",
   "folderExpanded": "_folder-open",
   "fileExtensions": {
@@ -36,6 +36,8 @@
     "jsx": "_file-js",
     "json": "_file-config",
     "toml": "_file-config",
+    "yaml": "_file-config",
+    "yml": "_file-config",
     "env": "_file-config",
     "local": "_file-config",
     "gitignore": "_file-git",
