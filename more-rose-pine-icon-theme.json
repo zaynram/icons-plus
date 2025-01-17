@@ -1,0 +1,47 @@
+{
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "./file.svg"
+    },
+    "_file-js": {
+      "iconPath": "./file-js.svg"
+    },
+    "_file-ts": {
+      "iconPath": "./file-ts.svg"
+    },
+    "_file-git": {
+      "iconPath": "./file-git.svg"
+    },
+    "_file-config": {
+      "iconPath": "./file-config.svg"
+    },
+    "_file-app": {
+      "iconPath": "./file-app.svg"
+    },
+    "_folder": {
+      "iconPath": "./folder.svg"
+    },
+    "_folder-open": {
+      "iconPath": "./folder-open.svg"
+    }
+  },
+  "file": "_file",
+  "showLanguageModeIcons": true,
+  "folder": "_folder",
+  "folderExpanded": "_folder-open",
+  "fileExtensions": {
+    "ts": "_file-ts",
+    "tsx": "_file-ts",
+    "js": "_file-js",
+    "jsx": "_file-js",
+    "json": "_file-config",
+    "toml": "_file-config",
+    "env": "_file-config",
+    "local": "_file-config",
+    "gitignore": "_file-git",
+    "gitattributes": "_file-git",
+    "code-workspace": "_file-app",
+    "code-snippets": "_file-app"
+  },
+  "hidesExplorerArrows": true
+}
