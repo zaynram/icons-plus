@@ -19,6 +19,12 @@
     "_file-app": {
       "iconPath": "./file-app.svg"
     },
+    "_file-idx": {
+      "iconPath": "./file-idx.svg"
+    },
+    "_file-env": {
+      "iconPath": "./file-env.svg"
+    },
     "_folder": {
       "iconPath": "./folder.svg"
     },
@@ -29,17 +35,31 @@
   "file": "_file",
   "folder": "_folder",
   "folderExpanded": "_folder-open",
+  "fileNames": {
+    "index.ts": "_file-idx",
+    "index.tsx": "_file-idx",
+    "README.md": "_file-idx",
+    "wrangler.json": "_file-env",
+    "wrangler.toml": "_file-env",
+    "package.json": "_file-app",
+    "tamagui.config.ts": "_file-js",
+    "theme-builder.ts": "_file-config",
+    "themes.ts": "_file-config"
+  },
   "fileExtensions": {
     "ts": "_file-ts",
+    "mts": "_file-ts",
     "tsx": "_file-ts",
     "js": "_file-js",
+    "mjs": "_file-js",
     "jsx": "_file-js",
     "json": "_file-config",
     "toml": "_file-config",
     "yaml": "_file-config",
     "yml": "_file-config",
-    "env": "_file-config",
-    "local": "_file-config",
+    "vars": "_file-env",
+    "env": "_file-env",
+    "local": "_file-env",
     "gitignore": "_file-git",
     "gitattributes": "_file-git",
     "code-workspace": "_file-app",
