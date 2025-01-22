@@ -62,6 +62,7 @@
     "local": "_file-env",
     "gitignore": "_file-git",
     "gitattributes": "_file-git",
+    "gitmodules": "_file-git",
     "code-workspace": "_file-app",
     "code-snippets": "_file-app"
   },
