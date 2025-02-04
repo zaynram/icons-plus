@@ -13,6 +13,9 @@
     "_file-git": {
       "iconPath": "./file-git.svg"
     },
+    "_file-web": {
+      "iconPath": "./file-web.svg"
+    },
     "_file-config": {
       "iconPath": "./file-config.svg"
     },
@@ -21,6 +24,9 @@
     },
     "_file-idx": {
       "iconPath": "./file-idx.svg"
+    },
+    "_file-none": {
+      "iconPath": "./file-none.svg"
     },
     "_file-env": {
       "iconPath": "./file-env.svg"
@@ -38,7 +44,7 @@
   "fileNames": {
     "index.ts": "_file-idx",
     "index.tsx": "_file-idx",
-    "README.md": "_file-idx",
+    "README.md": "_file-none",
     "wrangler.json": "_file-env",
     "wrangler.toml": "_file-env",
     "package.json": "_file-app",
@@ -59,6 +65,8 @@
     "yml": "_file-config",
     "vars": "_file-env",
     "env": "_file-env",
+    "html": "_file-web",
+    "lock": "_file-none",
     "local": "_file-env",
     "gitignore": "_file-git",
     "gitattributes": "_file-git",
