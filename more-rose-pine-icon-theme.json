@@ -13,8 +13,8 @@
     "_file-git": {
       "iconPath": "./file-git.svg"
     },
-    "_file-web": {
-      "iconPath": "./file-web.svg"
+    "_file-wasm": {
+      "iconPath": "./file-wasm.svg"
     },
     "_file-config": {
       "iconPath": "./file-config.svg"
@@ -22,11 +22,11 @@
     "_file-app": {
       "iconPath": "./file-app.svg"
     },
-    "_file-idx": {
-      "iconPath": "./file-idx.svg"
+    "_file-declare": {
+      "iconPath": "./file-declare.svg"
     },
-    "_file-none": {
-      "iconPath": "./file-none.svg"
+    "_file-sh": {
+      "iconPath": "./file-sh.svg"
     },
     "_file-env": {
       "iconPath": "./file-env.svg"
@@ -36,23 +36,32 @@
     },
     "_folder-open": {
       "iconPath": "./folder-open.svg"
+    },
+    "_file-cpp": {
+      "iconPath": "./file-cpp.svg"
+    },
+    "_file-blank": {
+      "iconPath": "./file-blank.svg",
+    },
+    "_file-md": {
+      "iconPath": "./file-md.svg",
     }
   },
   "file": "_file",
   "folder": "_folder",
   "folderExpanded": "_folder-open",
   "fileNames": {
-    "index.ts": "_file-idx",
-    "index.tsx": "_file-idx",
-    "README.md": "_file-none",
-    "wrangler.json": "_file-env",
-    "wrangler.toml": "_file-env",
+    "index.ts": "_file-blank",
+    "index.tsx": "_file-blank",
     "package.json": "_file-app",
-    "tamagui.config.ts": "_file-js",
-    "theme-builder.ts": "_file-config",
-    "themes.ts": "_file-config"
   },
   "fileExtensions": {
+    "md": "_file-md",
+    "sh": "_file-sh",
+    "wasm": "_file-wasm",
+    "fish": "_file-sh",
+    "cpp": "_file-cpp",
+    "d.ts": "_file-declare",
     "ts": "_file-ts",
     "mts": "_file-ts",
     "tsx": "_file-ts",
@@ -60,13 +69,12 @@
     "mjs": "_file-js",
     "jsx": "_file-js",
     "json": "_file-config",
-    "toml": "_file-config",
-    "yaml": "_file-config",
-    "yml": "_file-config",
+    "toml": "_file-env",
+    "yaml": "_file-env",
+    "yml": "_file-env",
     "vars": "_file-env",
     "env": "_file-env",
-    "html": "_file-web",
-    "lock": "_file-none",
+    "html": "_file-blank",
     "local": "_file-env",
     "gitignore": "_file-git",
     "gitattributes": "_file-git",
